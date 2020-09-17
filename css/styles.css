@@ -1,0 +1,154 @@
+/*--------------------------tag css--------------------------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 312.5%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #311d3f;
+  border-width: 9px;
+  height: 10px;
+  width: 15%;
+}
+
+a {
+  font-size: 1.2rem;
+  color: #522546;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/*--------------------------class css--------------------------*/
+.navbar {
+  position: fixed;
+  background-color: grey;
+  height: 10px;
+  ;
+}
+
+.top-container {
+  color: #e84545;
+  background-color: #2b2e4a;
+  position: relative;
+  padding-top: 200px;
+}
+
+.prog {
+  font-size: 1.25rem;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 100px;
+  left: 850px;
+  height: 100px;
+  width: 300px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  left: 200px;
+}
+
+.mountain {
+  margin-top: 130px;
+  margin-left: 0;
+  height: 200px;
+  width: 700px;
+}
+
+.middle-container {
+  background-color: #e23e57;
+  color: #311d3f;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: left;
+  margin-bottom: 200px
+}
+
+.pokeball {
+  width: 20%;
+  margin-right: 30px;
+  float: left;
+}
+
+.anime {
+  width: 30%;
+  position: relative;
+  float: right;
+  margin-right: 30px;
+  bottom: 100px;
+  right: 25px;
+}
+
+.prof {
+  border-style: solid;
+  border-radius: 200px;
+  border-color: #2b2e4a;
+}
+
+.contact {
+  border-top: 30px;
+}
+
+.bottom-container {
+  background-color: #903749;
+  margin: 0;
+  height: auto;
+  padding-top: 20px;
+  font-size: 20px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: #2b2e4a;
+}
+
+.cc {
+  font-size: 1.2rem;
+  color: black;
+}
+.footer-link{
+  color: #e23e57;
+}
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #e23e57;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 40px;
+  background-color: #2B2E4A;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
