@@ -122,6 +122,7 @@ p {
 .bottom-container {
   background-color: #903749;
   margin: 0;
+  margin-bottom: 0;
   height: auto;
   padding-top: 20px;
   font-size: 20px;
